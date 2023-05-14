@@ -14,7 +14,7 @@ int check_num(char *str)
 
 	count = 0;
 
-	while (count < strlen(str)) /*count string*/
+			while (count < strlen(str)) /*count string*/
 		{
 			if (!isdigit(str[count])) /*check if str there are digit*/
 			{
@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
 
 	count = 1;
 
-	while (count < argc) /*Goes through the whole array*/
+			while (count < argc) /*Goes through the whole array*/
 		{
 			if (check_num(argv[count]))
 			{
